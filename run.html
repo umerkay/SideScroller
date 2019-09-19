@@ -1,0 +1,35 @@
+<html>
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css" />
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "theme -elegent.css" />
+
+<body>
+	<h1>SLiDER</h1>
+	<table id = "main">
+		<tr>
+			<td><canvas id="db1" class="mainDb"></canvas></td>
+		</tr>
+	</table>
+	<table id = "footer">
+		<tr id="footerR">
+			<td id="output">►</td>
+		</tr>
+	</table>
+	<table id = "header">
+		<tr id="headerR">
+			<td> <button onClick="init()" id="b1">Init</button></td>
+			<td> <button onclick="window.open('run_builder.html')">EDITOR</button> </td>
+			<td> <input id="blockID" value="0" type="number" class="in" /></td>
+		</tr>
+	</table>
+</body>
+<script src="basics.js"></script>
+<script src="inputs.js"></script>
+<script src="player.js"></script>
+<script src="worlds.js"></script>
+<script src="tiles.js"></script>
+<script src="main.js"></script>
+</html>

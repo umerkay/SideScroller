@@ -1,0 +1,102 @@
+button {
+
+	margin: 10px 10px;
+	font-size: 20;
+	font-family: Impact, Charcoal, sans-serif;
+	
+	border-radius: 20px;
+	background-color: #efc323;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	border-radius: 2px;
+	border: none;
+	-webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.1s;
+	padding: 5px 15px;
+	box-shadow: 0 4px #a58718;
+    text-align: center;	 
+    outline: none;
+}
+.in {
+
+	width: 50;
+	font-size: 20;
+	font-family: Impact;
+	outline: none;
+	border: 4px solid white;
+	border-radius: 2px;
+	text-align: center;
+	box-shadow: 0 4px #666666;
+	margin: 10px;
+}
+button:hover {
+
+	background-color: #d6af1d;
+	box-shadow: 0 3px #a58718;
+	transform: translateY(2px);
+}
+body {
+
+	color: white;
+	background-color: #0c0c0c;
+	font-size: 20;
+	font-family: Impact, Charcoal, sans-serif;
+	
+}
+canvas {
+
+	border: 5px solid #efc323;
+	border-radius: 4px;
+	box-shadow: 0 4px #a58718;
+}
+.blue {
+	box-shadow: 0 4px #004eaf;
+	background-color: #0072ff;
+
+}
+.turquoise {
+	box-shadow: 0 4px #009189;
+	background-color: #00bab0;
+
+}
+.green {
+	box-shadow: 0 4px #128e00;
+	background-color: #19bc00;
+
+}
+.orange {
+
+	background-color: #a58718;
+	box-shadow: 0 4px ;
+}
+.blue:hover {
+	box-shadow: 0 3px #002856;
+	background-color: #004eaf;
+
+}
+.turquoise:hover {
+	box-shadow: 0 3px #005640;
+	background-color: #009189;
+
+}
+.green:hover {
+	box-shadow: 0 3px #0a5600;
+	background-color: #128e00;
+
+}
+.orange:hover {
+
+	background-color: #d6af1d;
+	box-shadow: 0 3px #a58718;
+}
+.red {
+
+	background-color: #f44242;
+	box-shadow: 0 4px #d13838;
+}
+.red:hover {
+
+	background-color: #d13838;
+	box-shadow: 0 3px #992626;
+}
