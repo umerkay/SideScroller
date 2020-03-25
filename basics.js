@@ -115,6 +115,7 @@ function pause() {
 
 	update(0);
 	editClick("pause",resume);
+	message = "Paused"
 	editText("pause","►");
 }
 function resume() {
