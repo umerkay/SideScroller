@@ -16,6 +16,7 @@ function init(index) {
 
 	removeButton("L" + i);
 	}
+	message = ""
 
 	index = index || document.getElementById("blockID").value;
 	w = 900; h = 600; width = w; height = h; fps = 60; toRemove = [];
